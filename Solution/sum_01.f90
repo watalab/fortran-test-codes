@@ -4,7 +4,7 @@ program sum01
     
     integer i, wa
     integer, parameter:: n = 1000
-
+    ! 1からnまでの整数の和を求める
     wa = 0
     do i=1, n
         wa = wa + i
